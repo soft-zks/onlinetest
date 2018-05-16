@@ -1,0 +1,118 @@
+html, body, p {
+     border: 0 none;
+     margin: 0;
+	 padding:0;
+     outline-style: none;
+     outline-width: 0;
+     vertical-align: baseline;
+	 font-size: 12px;
+}
+
+div#container {
+     width: 100%;
+     margin: 0 auto;
+     overflow: hidden;
+}
+div.examples_body {
+     width: 820px;
+	 margin: 0px auto 0 auto;
+	 clear: both;
+	 overflow: hidden;
+	 position: relative;
+}
+
+.bannerHolder{
+     width: 840px;
+	 margin: 20px 0 15px 0;
+	 padding: 20px 10px 20px 10px;
+	 background-color: #f7f7f7;
+	 border: 1px solid #eee;
+	 overflow: hidden;
+	 -moz-border-radius:12px;
+	 -webkit-border-radius:12px;
+	 border-radius:12px;
+}
+.bannerHolder2{
+     width: 622px;
+	 margin: 20px 0 15px 0;
+	 padding: 20px 10px 20px 10px;
+	 background-color: #f7f7f7;
+	 border: 1px solid #eee;
+	 overflow: hidden;
+	 -moz-border-radius:12px;
+	 -webkit-border-radius:12px;
+	 border-radius:12px;
+}
+.bannerHolder3{
+     width: 422px;
+	 margin: 20px 0 15px 0;
+	 padding: 20px 10px 20px 10px;
+	 background-color: #f7f7f7;
+	 border: 1px solid #eee;
+	 overflow: hidden;
+	 -moz-border-radius:12px;
+	 -webkit-border-radius:12px;
+	 border-radius:12px;
+}
+.bannerHolder li {
+	 list-style: none;
+	 display: inline;
+}
+
+.banner {
+     width: 180px;
+	 height: 120px;
+	 position: relative;
+	 overflow: hidden;
+	 float: left;
+	 display: inline;
+	 margin: 0 10px;
+	 border-radius: 10px;
+}
+.banner img {
+	 display: block;
+	 border: none;
+}
+
+.banner div {
+	 position: absolute;
+	 z-index: 100;
+	 background-color: #222;
+	 width: 60px;
+	 height: 60px;
+	 cursor: pointer;
+	 -moz-border-radius:100px;
+	 -webkit-border-radius:100px;
+	 border-radius:100px;
+}
+.banner .cornerTL { left:-63px; top:-63px; }
+.banner .cornerTR { right:-63px; top:-63px; }
+.banner .cornerBL { left:-63px; bottom:-63px; }
+.banner .cornerBR { right:-63px; bottom:-63px; }
+
+.banner p {
+     width: 100%;
+	 left: 0;
+	 top: 45px;
+	 z-index: 200;
+	 position: absolute;
+	 font-family:"楷体";
+	 color: #101010;
+	 font-size: 19px;
+	 font-weight: bold;
+	 text-align: center;
+	 cursor: pointer;
+	 display: none;	
+}
+.banner a h4{
+	font-family: '华文行楷'; 
+	color: #1B6D85; 
+	background: url(img/002.jpg); 
+	height: 180px; 
+	width: 180px; 
+	margin-top: 0;
+	padding: 10px 10px;
+}
+a{
+	text-decoration: none;
+}
